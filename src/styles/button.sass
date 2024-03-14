@@ -1,0 +1,40 @@
+.btn
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    gap: 10px
+    cursor: pointer
+
+    font-family: $font-primary
+    font-size: 1rem
+    font-weight: 400
+
+    border-radius: 255px
+
+    border: 1px solid
+
+    transition: 0.4s
+
+.btn.lg
+    padding: 0 32px
+    height: 3.1875rem
+
+.btn.md
+    padding: 0 24px
+    height: 2.875rem
+
+.btn.solid
+    color: $color-black
+    border-color: $color-yellow
+    background: $color-yellow
+
+.btn.solid:hover
+    filter: brightness(0.9)
+
+.btn.outline
+    color: $color-black
+
+.btn.outline:hover
+    color: $color-white
+    background: $color-black
+    border-color: $color-black
